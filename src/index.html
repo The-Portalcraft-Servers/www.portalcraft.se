@@ -17,7 +17,7 @@
   </head>
   
   <body background="./media/bg.jpg">
-    <div class="container" style="margin-top:20px">
+    <div name='navbar' class="container" style="margin-top:20px">
       <div class="navbar navbar-inverse" id="RandomKITTENMeny">
         <div class="navbar-inner">
           <div class="control-group">
@@ -32,10 +32,10 @@
               <a href="http://forum.portalcraft.se/">Forum</a>
             </li>
             <li>
-              <a href="./staff.html">Staff</a>
+              <a href="./staff/">Staff</a>
             </li>
             <li>
-              <a href="./banappeal.html">Ban Appeal</a>
+              <a href="./banappeal/">Ban Appeal</a>
             </li>
             <li>
               <a href="https://twitter.com/portalcraft_se">Twitter</a>
@@ -53,8 +53,7 @@
         </div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
-    >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
     </script>
     <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
       <div id="LEFT" style="margin-top:5px" class="pull-left">
@@ -113,17 +112,7 @@
         </div>
       </div>
     </div>
-    <div id="footer">
-      <div style="margin-top:20px;color:white">
-        <center>
-          <p>
-            The PortalCraft.se Servers are owned by Carlgo11. ©
-            <a href="http://www.carlgo11.com/">Carlgo11</a> 
-            2014 <a href="http://www.carlgo11.com/"><img src="http://www.gravatar.com/avatar/36b879e053d02c2c92d232eba14ffb3d?s=14"></a>
-          </p>
-        </center>
-      </div>
-    </div>
+    <? include './resources/footer.php'; ?>
   </body>
 
 </html>
