@@ -157,7 +157,7 @@
         </div>
       </div>
     </div>
-    <? include '../resources/footer.php'; ?>
+    <? include '../resources/footer.php/'; ?>
   </body>
 
 </html>
