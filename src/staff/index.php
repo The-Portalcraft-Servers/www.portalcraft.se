@@ -7,8 +7,8 @@
             The Portalcraft.se servers
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="PortalCraft Staff-list">
+        <meta name="author" content="Carlgo11">
         <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css"
               rel="stylesheet">
         <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css"
