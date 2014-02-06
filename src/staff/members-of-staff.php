@@ -1,4 +1,4 @@
-<div style="margin-left:10px">
+<div id="staff-members" style="margin-left:10px">
     <img src="https://minotar.net/helm/carlgo11/90.png">
     <p>
         [Owner] Carlgo11
@@ -7,16 +7,6 @@
     <img src="https://minotar.net/helm/olback/90.png">
     <p>
         [Owner] Olback
-    </p>
-    <br>
-    <img src="https://minotar.net/helm/8404Heather/90.png">
-    <p>
-        [Moderator] 8404Heather
-    </p>
-    <br>
-    <img src="https://minotar.net/helm/101sierra101/90.png">
-    <p>
-        [Moderator] 101sierra101
     </p>
     <br>
     <img src="https://minotar.net/helm/Pahlos/90.png">
