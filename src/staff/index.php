@@ -17,44 +17,7 @@
     </head>
 
     <body background="../media/bg.jpg">
-        <div class="container" style="margin-top:20px">
-            <div class="navbar navbar-inverse" id="RandomKITTENMeny">
-                <div class="navbar-inner">
-                    <div class="control-group">
-                        <div class="controls">
-                        </div>
-                    </div>
-                    <ul class="nav nav-pills">
-                        <li>
-                            <a href="../">Home</a>
-                        </li>
-                        <li>
-                            <a href="http://forum.portalcraft.se/">Forum</a>
-                        </li>
-                        <li>
-                        </li>
-                        <li class="active">
-                            <a href="#">Staff</a>
-                        </li>
-                        <li>
-                            <a href="../banappeal/">Ban Appeal</a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/portalcraft_se">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/portalcraft.se">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="http://map.portalcraft.se">Live map</a>
-                        </li>
-                        <li>
-                            <a href="http://portalcraftse.buycraft.net/">Webshop</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php include '../resources/header.php'; ?>
         <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
             <div id="LEFT" style="margin-top:5px" class="pull-left">
                 <p style="color:white;">
@@ -122,7 +85,7 @@
 
                 while ($row = mysqli_fetch_array($result)) {
                     if ($row['Hide'] == "false") {
-                        if ($row['Rank'] == "Owner") {
+                        if (strtolower($row['Rank']) == "owner") {
                             $name = ucfirst("" . $row['Player']);
                             $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
                             echo "<img src=$imgsrc>";
@@ -130,6 +93,13 @@
                             echo "<br>";
                         }
 
+                        if (strtolower($row['Rank']) == "coowner") {
+                            $name = ucfirst("" . $row['Player']);
+                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
+                            echo "<img src=$imgsrc>";
+                            echo "<p>[Co-Owner] " . $name . "</p>";
+                            echo "<br>";
+                        }
 
                         if (strtolower($row['Rank']) == "headadmin") {
                             $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
@@ -139,7 +109,6 @@
                             echo "<br>";
                         }
 
-
                         if (strtolower($row['Rank']) == "admin") {
                             $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
                             $name = ucfirst($row['Player']);
@@ -147,7 +116,6 @@
                             echo "<p>[Admin] " . $name . "</p>";
                             echo "<br>";
                         }
-
 
                         if (strtolower($row['Rank']) == "moderator") {
                             $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
@@ -158,7 +126,6 @@
                         }
                     }
                 }
-
 
                 mysqli_close($con);
                 ?>

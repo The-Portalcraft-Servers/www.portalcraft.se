@@ -17,44 +17,8 @@
     </head>
 
     <body background="./media/bg.jpg">
-        <div name='navbar' class="container" style="margin-top:20px">
-            <div class="navbar navbar-inverse" id="RandomKITTENMeny">
-                <div class="navbar-inner">
-                    <div class="control-group">
-                        <div class="controls">
-                        </div>
-                    </div>
-                    <ul class="nav nav-pills">
-                        <li class="active">
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="http://forum.portalcraft.se/">Forum</a>
-                        </li>
-                        <li>
-                            <a href="./staff/">Staff</a>
-                        </li>
-                        <li>
-                            <a href="./banappeal/">Ban Appeal</a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/portalcraft_se">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/portalcraft.se">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="http://map.portalcraft.se">Live map</a>
-                        </li>
-                        <li>
-                            <a href="http://portalcraftse.buycraft.net/">Webshop</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php include './resources/header.php'; ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        
         <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
             <div id="LEFT" style="margin-top:5px" class="pull-left">
                 <p style="color:white;">
