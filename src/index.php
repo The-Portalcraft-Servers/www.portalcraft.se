@@ -53,8 +53,8 @@
                 </div>
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
-        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        
         <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
             <div id="LEFT" style="margin-top:5px" class="pull-left">
                 <p style="color:white;">
@@ -112,7 +112,7 @@
                 </div>
             </div>
         </div>
-        <? include './resources/footer.php'; ?>
+        <?php include './resources/footer.php'; ?>
     </body>
 
 </html>

@@ -9,11 +9,6 @@
         [Owner] Olback
     </p>
     <br>
-    <img src="https://minotar.net/helm/Pahlos/90.png">
-    <p>
-        [Moderator] Pahlos
-    </p>
-    <br>
     <img src="https://minotar.net/helm/flamehawk33/90.png">
     <p>
         [Moderator] flamehawk33

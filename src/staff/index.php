@@ -72,19 +72,19 @@
                     We only have responsible personal!&nbsp;
                 </div>
                 <div>
-                    <span style="line-height: 1.428571429;">Our goal is to only have the best staff members! To become a staff member on these servers</span>
+                    <span style="line-height: 1.428571429;">Our goal is to only have the best staff members!</span>
                 </div>
                 <div>
-                    <span style="line-height: 1.428571429;">is a pain in the ass.<br>To become a staff-member you will have to:<br><br>
+                    <span style="line-height: 1.428571429;"><br>To become a staff-member you will have to:<br><br>
                     </span>
                 </div>
                 <div style="color:white">
                     <p>
                         * Be one of the most active users on the servers.
                         <br>
-                        * Be responsible and never break the rules.
+                        * Be responsible and never disobey the rules.
                         <br>
-                        * Be nice to everyone
+                        * Be respectful to everyone
                     </p>
                 </div>
                 <div>
@@ -110,10 +110,61 @@
                 <p>
                     These are our current Staff members:
                 </p>
-                <? include './members-of-staff.php'; ?>
+                <?php
+                $con = mysqli_connect("mc.portalcraft.se", "Delta", "dRpLPAJ9P7wb4ycf", "ranks");
+
+                if (mysqli_connect_errno()) {
+                    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                }
+
+                $result = mysqli_query($con, "SELECT * FROM ranks ORDER BY `id` ASC");
+
+
+                while ($row = mysqli_fetch_array($result)) {
+                    if ($row['Hide'] == "false") {
+                        if ($row['Rank'] == "Owner") {
+                            $name = ucfirst("" . $row['Player']);
+                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
+                            echo "<img src=$imgsrc>";
+                            echo "<p>[Owner] " . $name . "</p>";
+                            echo "<br>";
+                        }
+
+
+                        if (strtolower($row['Rank']) == "headadmin") {
+                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
+                            $name = ucfirst($row['Player']);
+                            echo "<img src=$imgsrc>";
+                            echo "<p>[Head-Admin] " . $name . "</p>";
+                            echo "<br>";
+                        }
+
+
+                        if (strtolower($row['Rank']) == "admin") {
+                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
+                            $name = ucfirst($row['Player']);
+                            echo "<img src=$imgsrc>";
+                            echo "<p>[Admin] " . $name . "</p>";
+                            echo "<br>";
+                        }
+
+
+                        if (strtolower($row['Rank']) == "moderator") {
+                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
+                            $name = ucfirst($row['Player']);
+                            echo "<img src=$imgsrc>";
+                            echo "<p>[Moderator] " . $name . "</p>";
+                            echo "<br>";
+                        }
+                    }
+                }
+
+
+                mysqli_close($con);
+                ?>
             </div>
         </div>
-        <? include '../resources/footer.php/'; ?>
+        <?php include '../resources/footer.php'; ?>
     </body>
 
 </html>
