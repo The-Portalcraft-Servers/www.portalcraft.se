@@ -2,5 +2,4 @@
 ./config/
 ./test/
 ./public_html/
-./src/staff/members-of-staff.php
-/src/nbproject/private/
+/nbproject/private/
