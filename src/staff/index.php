@@ -74,7 +74,7 @@
                     These are our current Staff members:
                 </p>
                 <?php
-                $con = mysqli_connect("mc.portalcraft.se", "Delta", "dRpLPAJ9P7wb4ycf", "ranks");
+                $con = mysqli_connect("alpha.portalcraft.se", "Delta", "dRpLPAJ9P7wb4ycf", "portalcraft");
 
                 if (mysqli_connect_errno()) {
                     echo "Failed to connect to MySQL: " . mysqli_connect_error();
