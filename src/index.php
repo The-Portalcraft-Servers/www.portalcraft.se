@@ -3,20 +3,26 @@
 
     <head>
         <meta charset="utf-8">
-        <title>
-            The Portalcraft.se servers
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <title>The Portalcraft.se servers</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta name="author" content="Carlgo11">
-        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css"
-              rel="stylesheet">
-        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css"
-              rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css" rel="stylesheet">
         <link rel="icon" href="./media/favicon.ico" type="image/vnd.microsoft.icon" />
     </head>
 
     <body background="./media/bg.jpg">
+        <script type="text/javascript">
+            window._idl = {};
+            _idl.variant = "modal";
+            (function() {
+                var idl = document.createElement('script');
+                idl.type = 'text/javascript';
+                idl.async = true;
+                idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
+                document.getElementsByTagName('body')[0].appendChild(idl);
+            })();
+        </script>
         <?php include './resources/header.php'; ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
@@ -27,14 +33,12 @@
                     </font>
                 </p>
                 <font face="Georgia, Arial, Garamond">
-                <p>
-                </p>
                 <div>
                     Like to play survival Minecraft? Or do you like to play in creative mode
                     instead?
                 </div>
                 <div>
-                    Here at The PortalCraft.Se Servers we have both!&nbsp;
+                    Here at The PortalCraft.Se Servers we have both!
                     <div>
                         <span style="line-height: 1.428571429;"><br></span>
                     </div>
@@ -42,8 +46,6 @@
                         <span style="line-height: 1.428571429;">We're currently hosting: a survival whitelist server, &nbsp;public survival server,<br>public creative server &amp; a game server with parkour, spleef, survival games and more! &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></span>
                     </div>
                 </div>
-                <p>
-                </p>
                 <div style="margin-top:30px">
                     <font style="color: white;" size="3">
                     Happy players means everything!
@@ -61,8 +63,6 @@
                     we'd love to hear them! You find out how to contact us by clicking on
                     the "Contact" tab!
                 </div>
-                <p>
-                </p>
                 </font>
             </div>
             <div id="RIGHT" class="pull-right" style="margin-top:20px;margin-right:20px;margin-bottom:100px">
@@ -78,5 +78,4 @@
         </div>
         <?php include './resources/footer.php'; ?>
     </body>
-
 </html>
