@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>The Portalcraft.se servers</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="author" content="Carlgo11">
-        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css" rel="stylesheet">
-        <link rel="icon" href="./media/favicon.ico" type="image/vnd.microsoft.icon" />
-    </head>
+    <?php include 'header.php';?>
 
     <body background="./media/bg.jpg">
         <script type="text/javascript">
@@ -23,7 +15,7 @@
                 document.getElementsByTagName('body')[0].appendChild(idl);
             })();
         </script>
-        <?php include './resources/header.php'; ?>
+        <?php include './resources/navbar.php'; ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
             <div id="LEFT" style="margin-top:5px" class="pull-left">

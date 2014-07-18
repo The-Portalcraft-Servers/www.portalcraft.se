@@ -1,23 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>
-            The Portalcraft.se servers
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="PortalCraft Staff-list">
-        <meta name="author" content="Carlgo11">
-        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css"
-              rel="stylesheet">
-        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css"
-              rel="stylesheet">
-        <link rel="icon" href="../media/favicon.ico" type="image/vnd.microsoft.icon" />
-    </head>
+    <?php include 'header.php'; ?>
 
-    <body background="../media/bg.jpg">
-        <?php include '../resources/header.php'; ?>
+    <body background="./media/bg.jpg">
+        <?php include './resources/navbar.php'; ?>
         <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
             <div id="LEFT" style="margin-top:5px" class="pull-left">
                 <p style="color:white;">
@@ -61,7 +48,7 @@
             <div id="RIGHT" style="margin-right:20px">
                 <div style="margin-top:20px">
                 </div>
-                <img src="../media/bankey.jpg" div="" width="300" class="pull-right">
+                <img src="./media/bankey.jpg" div="" width="300" class="pull-right">
             </div>
             <br>
             <div id="Staff-Members" style="margin-top:281px">
@@ -131,7 +118,6 @@
                 ?>
             </div>
         </div>
-        <?php include '../resources/footer.php'; ?>
+        <?php include './resources/footer.php'; ?>
     </body>
-
 </html>

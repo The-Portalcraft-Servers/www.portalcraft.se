@@ -19,7 +19,7 @@
                     <a href="http://www.portalcraft.se/banappeal/">Ban Appeal</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/portalcraft_se">Twitter</a>
+                    <a href="https://twitter.com/portalcraftse">Twitter</a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/portalcraft.se">Facebook</a>
