@@ -13,10 +13,13 @@
                     <a href="http://forum.portalcraft.se/">Forum</a>
                 </li>
                 <li>
-                    <a href="http://www.portalcraft.se/staff/">Staff</a>
+                    <a href="staff.php">Staff</a>
                 </li>
                 <li>
-                    <a href="http://www.portalcraft.se/banappeal/">Ban Appeal</a>
+                    <a href="banappeal.php">Ban Appeal</a>
+                </li>
+                <li>
+                    <a href="lain.php">Lain</a>
                 </li>
                 <li>
                     <a href="https://twitter.com/portalcraftse">Twitter</a>
