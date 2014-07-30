@@ -1,3 +1,10 @@
+<?php
+$email = "carl@thisisafakeemail.net";
+$default = "http://community.skype.com/skypec/attachments/skypec/Windows/201341/1/Skype.jpg";
+$size = 14;
+$grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . urlencode( $default ) . "&s=" . $size;
+?>
+
 <div id="footer">
     <div style="margin-top:20px;color:white">
         <center>

@@ -3,3 +3,4 @@
 ./test/
 ./public_html/
 /nbproject/private/
+*Thumbs.db
