@@ -5,7 +5,7 @@
 
     <body background="./media/bg.jpg">
         <?php include './resources/navbar.php'; ?>
-        <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px;margin-left: 10px;margin-right: 10px">
+        <div class="container" id="KITTENS" style="background:rgba(0,0,0,0.70);color:rgba(176, 176, 176, 0.75);margin-top:30px">
             <div id="LEFT" style="margin-top:5px" class="pull-left">
                 <center>
                     <p style="color:white;">
