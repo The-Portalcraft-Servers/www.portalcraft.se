@@ -33,6 +33,9 @@
                 <li>
                     <a href="http://portalcraftse.buycraft.net/">Webshop</a>
                 </li>
+                <li>
+                    <a href="http://www.portalcraft.se/banmanager">BanManager</a>
+                </li>
             </ul>
         </div>
     </div>
