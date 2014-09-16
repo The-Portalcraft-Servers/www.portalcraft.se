@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <?php include 'header.php';?>
+    <?php include 'header.php'; ?>
 
     <body background="./media/bg.jpg">
         <script type="text/javascript">

@@ -19,7 +19,7 @@
                     <br>
                 </div>
                 <div>
-                    We only have responsible personal!&nbsp;
+                    We only have responsible personal!
                 </div>
                 <div>
                     <span style="line-height: 1.428571429;">Our goal is to only have the best staff members!</span>
@@ -68,7 +68,6 @@
                 }
 
                 $result = mysqli_query($con, "SELECT * FROM ranks ORDER BY `id` ASC");
-
 
                 while ($row = mysqli_fetch_array($result)) {
                     if ($row['Hide'] == "false") {
