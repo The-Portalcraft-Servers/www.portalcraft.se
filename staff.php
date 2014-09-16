@@ -72,45 +72,11 @@
 
                 while ($row = mysqli_fetch_array($result)) {
                     if ($row['Hide'] == "false") {
-                        if (strtolower($row['Rank']) == "owner") {
-                            $name = ucfirst("" . $row['Player']);
-                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
-                            echo "<img src=$imgsrc>";
-                            echo "<p>[Owner] " . $name . "</p>";
-                            echo "<br>";
-                        }
-
-                        if (strtolower($row['Rank']) == "coowner") {
-                            $name = ucfirst("" . $row['Player']);
-                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
-                            echo "<img src=$imgsrc>";
-                            echo "<p>[Co-Owner] " . $name . "</p>";
-                            echo "<br>";
-                        }
-
-                        if (strtolower($row['Rank']) == "headadmin") {
-                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
-                            $name = ucfirst($row['Player']);
-                            echo "<img src=$imgsrc>";
-                            echo "<p>[Head-Admin] " . $name . "</p>";
-                            echo "<br>";
-                        }
-
-                        if (strtolower($row['Rank']) == "admin") {
-                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
-                            $name = ucfirst($row['Player']);
-                            echo "<img src=$imgsrc>";
-                            echo "<p>[Admin] " . $name . "</p>";
-                            echo "<br>";
-                        }
-
-                        if (strtolower($row['Rank']) == "moderator") {
-                            $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
-                            $name = ucfirst($row['Player']);
-                            echo "<img src=$imgsrc>";
-                            echo "<p>[Moderator] " . $name . "</p>";
-                            echo "<br>";
-                        }
+                        $name = ucfirst("" . $row['Player']);
+                        $imgsrc = "https://minotar.net/helm/" . $row['Player'] . "/90.png";
+                        echo "<img src=$imgsrc>";
+                        echo "<p>[" . $row['Rank'] . "] " . $name . "</p>";
+                        echo "<br>";
                     }
                 }
 
