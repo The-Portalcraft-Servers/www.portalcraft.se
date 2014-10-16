@@ -7,19 +7,19 @@
             </div>
             <ul class="nav nav-pills">
                 <li>
-                    <a href="http://www.portalcraft.se/">Home</a>
+                    <a href="./">Home</a>
                 </li>
                 <li>
-                    <a href="http://forum.portalcraft.se/">Forum</a>
+                    <a href="https://forum.portalcraft.se/">Forum</a>
                 </li>
                 <li>
-                    <a href="staff.php">Staff</a>
+                    <a href="./staff.php">Staff</a>
                 </li>
                 <li>
-                    <a href="banappeal.php">Ban Appeal</a>
+                    <a href="./banappeal.php">Ban Appeal</a>
                 </li>
                 <li>
-                    <a href="lain.php">Lain</a>
+                    <a href="./lain.php">Lain</a>
                 </li>
                 <li>
                     <a href="https://twitter.com/portalcraftse">Twitter</a>
@@ -28,13 +28,13 @@
                     <a href="https://www.facebook.com/portalcraft.se">Facebook</a>
                 </li>
                 <li>
-                    <a href="http://map.portalcraft.se/">Live map</a>
+                    <a href="https://map.portalcraft.se/">Live map</a>
                 </li>
                 <li>
-                    <a href="http://portalcraftse.buycraft.net/">Webshop</a>
+                    <a href="https://portalcraftse.buycraft.net/">Webshop</a>
                 </li>
                 <li>
-                    <a href="http://www.portalcraft.se/banmanager">BanManager</a>
+                    <a href="./banmanager">BanManager</a>
                 </li>
             </ul>
         </div>
