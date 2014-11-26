@@ -8,6 +8,6 @@
         <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css" rel="stylesheet">
         <link rel="icon" href="./media/favicon.ico" type="image/vnd.microsoft.icon" />
-        <link rel="apple-touch-icon" href="/media/favicon.png">
+        <link rel="apple-touch-icon" href="./media/favicon.png">
     </head>
 </html>
